@@ -7,7 +7,7 @@ export class Titles extends Component {
 		return (
 			<div style={{ background: 'DarkSeaGreen', textAlign: "center", borderRadius: '15px' }}>
 				<h1 style={{ color: 'white' }}>This is where a title goes!</h1>
-				<p style={{ textSize: "15px" }}> This is where the subtitle goes</p>
+				<p style={{ fontSize: "15px" }}> This is where the subtitle goes</p>
 			</div>
 		)
 	}
