@@ -1,9 +1,8 @@
-import React from 'react';
+import { Component } from 'react';
 import { Titles } from './Header/Titles.jsx';
-export class App extends React.Component {
+
+export class App extends Component {
 	render() {
-		return (
-			<Titles />
-		)
+		return <p>hi</p>
 	}
 }

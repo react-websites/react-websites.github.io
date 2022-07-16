@@ -1,19 +1,14 @@
-import React from 'react';
+import { Component } from 'react';
 import './Header.css';
 import 'handsontable/dist/handsontable.full.css';
 
-export class Titles extends React.Component {
+export class Titles extends Component {
 	render() {
 		return (
-			<>
-				<div id="Titles">
-					<h1 style={{ color: 'white' }}>This is where a title goes!</h1>
-					<p style={{ textSize: "15px" }}> This is where the subtitle goes</p>
-				</div>
-				
-			</>
-
-
+			<div style={{ background: 'DarkSeaGreen', textAlign: "center", borderRadius: '15px' }}>
+				<h1 style={{ color: 'white' }}>This is where a title goes!</h1>
+				<p style={{ textSize: "15px" }}> This is where the subtitle goes</p>
+			</div>
 		)
 	}
 }
